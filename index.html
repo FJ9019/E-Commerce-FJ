@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,8 +74,50 @@
             </div>
         </div>
 
-        <button class="carousel"
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </header>
+
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-center mt-5">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn">All</button>
+                    <button type="button" class="btn m-2 text-dark">Best Sellers</button>
+                    <button type="button" class="btn m-2 text-dark">Featured</button>
+                    <button type="button" class="btn m-2 text-dark">New Arrival</button>
+                </div>
+
+                <div class="collection-list mt-4">
+                    <div class="">
+                        <div class="collection-img">
+                            <img src="images/Lavalier_Micro_2.jpeg" class="w-100">
+                            <span class="position-absolute">sale</span>
+                        </div>
+                        <div class="">
+                            <div class="rating">
+                                <span class=""><i class="fas fa-star"></i></span>
+                                <span class=""><i class="fas fa-star"></i></span>
+                                <span class=""><i class="fas fa-star"></i></span>
+                                <span class=""><i class="fas fa-star"></i></span>
+                                <span class=""><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="">Lavalier Micro</p>
+                            <span class="">$25</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
  
      <script src="js/jquery-3.6.0.js"></script>
      <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
