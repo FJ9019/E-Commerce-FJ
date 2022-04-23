@@ -110,6 +110,66 @@ body {
     transform: scale(1.2);
 }
 
+/* offers */
+#offers {
+    background: url(../images/Rop_Men_Sling_Bag_1.png) center/cover no-repeat;
+}
+#offers .row {
+    min-height: 60vh;
+}
+.offers-content span {
+    font-size: 28px;
+}
+.offers-content h2 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.offers-content .btn {
+    border-color: transparent!important;
+}
+
+/* about */
+#about {
+    background-color: rgba(179 , 179, 179, 0.5)
+}
+
+/* newsletter */
+#newsletter {
+    background-color:rgba(179 , 179, 179, 0.5)
+}
+#newsletter p {
+    max-width: 600px;
+}
+#newsletter .input-group {
+    max-width: 500px;
+}
+#newsletter .form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn {
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+/* footer */
+footer .brand {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a {
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: var(--pink)!important;
+}
+
+
 /* media queries */
 @media(min-width: 992px) {
     .nav-item {
